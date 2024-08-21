@@ -48,9 +48,7 @@ class MergeIntervalsTest {
 
         assertThrows(
                 IllegalArgumentException.class,
-                () -> {
-                    MergeIntervals.merge(invalidIntervals);
-                });
+                () -> MergeIntervals.merge(invalidIntervals));
     }
 
     @Test

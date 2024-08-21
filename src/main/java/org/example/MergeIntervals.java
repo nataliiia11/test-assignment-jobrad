@@ -1,14 +1,12 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 /**
  * Merges all overlapping intervals into non-overlapping intervals.
  *
- * @param intervals A 2D array of intervals where each interval is represented by a two-element
- *     array.
- * @return A 2D array containing merged intervals.
  */
 public class MergeIntervals {
 
@@ -32,7 +30,7 @@ public class MergeIntervals {
     }
 
     // Sort intervals by their starting points to facilitate the merging process
-    Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+    Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
     LinkedList<int[]> merged = new LinkedList<>();
     for (int[] interval : intervals) {
