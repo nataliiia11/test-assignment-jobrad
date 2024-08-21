@@ -16,25 +16,24 @@ Um `MergeIntervals` zu verwenden, benötigen Sie:
 ## Installation
 
 1. Klonen Sie dieses Repository auf Ihren lokalen Computer:
-2. 
 git clone [https://github.com/nataliiia11/test-assignment-jobrad.git](https://github.com/nataliiia11/test-assignment-jobrad.git)
 
 3. Wechseln Sie nach dem Klonen in das Projektverzeichnis:
-   ```
-cd test-assignment-jobrad
-   ```
+```
+   cd test-assignment-jobrad
+```
 3. Um das Projekt zu bauen, verwenden Sie den folgenden Befehl:
-   ```
-gradle clean build
-   ```
+```
+   gradle clean build
+```
 4. Nach dem erfolgreichen Build können Sie das Programm mit folgendem Befehl starten:
-   ```
-java -jar build/libs/test-assignment-jobrad-1.0-SNAPSHOT.jar
-   ```
+```
+   java -jar build/libs/test-assignment-jobrad-1.0-SNAPSHOT.jar
+```
 5. Um die Tests separat auszuführen, verwenden Sie den folgenden Befehl:
-   ```
-gradle test
-   ```
+ ```
+   gradle test
+```
 ## Verwendung
 
 Hier ist ein einfaches Beispiel, wie Sie die `MergeIntervals`-Klasse verwenden können:
