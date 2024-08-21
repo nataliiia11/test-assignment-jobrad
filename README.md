@@ -16,10 +16,10 @@ Um `MergeIntervals` zu verwenden, benötigen Sie:
 ## Installation
 
 1. Klonen Sie dieses Repository auf Ihren lokalen Computer:
-```
+2. 
 git clone [https://github.com/nataliiia11/test-assignment-jobrad.git](https://github.com/nataliiia11/test-assignment-jobrad.git)
-```
-2. Wechseln Sie nach dem Klonen in das Projektverzeichnis:
+
+3. Wechseln Sie nach dem Klonen in das Projektverzeichnis:
    ```
 cd test-assignment-jobrad
    ```
