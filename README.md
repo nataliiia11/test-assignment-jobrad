@@ -16,8 +16,9 @@ Um `MergeIntervals` zu verwenden, benötigen Sie:
 ## Installation
 
 1. Klonen Sie dieses Repository auf Ihren lokalen Computer:
-git clone [https://github.com/nataliiia11/test-assignment-jobrad.git](https://github.com/nataliiia11/test-assignment-jobrad.git)
-
+```
+   git clone https://github.com/nataliiia11/test-assignment-jobrad.git
+```
 3. Wechseln Sie nach dem Klonen in das Projektverzeichnis:
 ```
    cd test-assignment-jobrad
@@ -39,14 +40,14 @@ git clone [https://github.com/nataliiia11/test-assignment-jobrad.git](https://gi
 Hier ist ein einfaches Beispiel, wie Sie die `MergeIntervals`-Klasse verwenden können:
 
 ```
-public class Main {
-public static void main(String[] args) {
-MergeIntervals merger = new MergeIntervals();
-int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-int[][] merged = merger.merge(intervals);
-System.out.println(Arrays.deepToString(merged));
-}
-}
+   public class Main {
+      public static void main(String[] args) {
+         MergeIntervals merger = new MergeIntervals();
+         int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+         int[][] merged = merger.merge(intervals);
+         System.out.println(Arrays.deepToString(merged));
+      }
+   }
 ```
 
 ## Mitwirken
