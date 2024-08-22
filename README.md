@@ -16,39 +16,39 @@ Um `MergeIntervals` zu verwenden, benötigen Sie:
 ## Installation
 
 1. Klonen Sie dieses Repository auf Ihren lokalen Computer:
-
-git clone [https://github.com/nataliiia11/test-assignment-jobrad.git](https://github.com/nataliiia11/test-assignment-jobrad.git)
-
-2. Wechseln Sie nach dem Klonen in das Projektverzeichnis:
-   `
-cd test-assignment-jobrad
-   `
+```
+   git clone https://github.com/nataliiia11/test-assignment-jobrad.git
+```
+3. Wechseln Sie nach dem Klonen in das Projektverzeichnis:
+```
+   cd test-assignment-jobrad
+```
 3. Um das Projekt zu bauen, verwenden Sie den folgenden Befehl:
-   `
-gradle clean build
-   `
+```
+   gradle clean build
+```
 4. Nach dem erfolgreichen Build können Sie das Programm mit folgendem Befehl starten:
-   `
-java -jar build/libs/test-assignment-jobrad-1.0-SNAPSHOT.jar
-   `
+```
+   java -jar build/libs/test-assignment-jobrad-1.0-SNAPSHOT.jar
+```
 5. Um die Tests separat auszuführen, verwenden Sie den folgenden Befehl:
-   `
-gradle test
-   `
+ ```
+   gradle test
+```
 ## Verwendung
 
 Hier ist ein einfaches Beispiel, wie Sie die `MergeIntervals`-Klasse verwenden können:
 
-`
-public class Main {
-public static void main(String[] args) {
-MergeIntervals merger = new MergeIntervals();
-int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-int[][] merged = merger.merge(intervals);
-System.out.println(Arrays.deepToString(merged));
-}
-}
-`
+```
+   public class Main {
+      public static void main(String[] args) {
+         MergeIntervals merger = new MergeIntervals();
+         int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+         int[][] merged = merger.merge(intervals);
+         System.out.println(Arrays.deepToString(merged));
+      }
+   }
+```
 
 ## Mitwirken
 Beiträge zu diesem Projekt sind willkommen. Bitte erstellen Sie einen Fork des Repositories und submiten Sie einen Pull Request.
